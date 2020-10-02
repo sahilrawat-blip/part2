@@ -39,6 +39,7 @@ void get_key_iv(unsigned char *key, unsigned char *iv,int uid,std::string random
 void handleErrors();
 int decrypt(unsigned char *ciphertext, int ciphertext_len, unsigned char *key,unsigned char *iv, unsigned char *plaintext);
 int encrypt(unsigned char *plaintext, int plaintext_len, unsigned char *key,unsigned char *iv, unsigned char *ciphertext);
+void check();
 
 
 #endif //SE_ASSIGNMENT_4_HELPER_H
