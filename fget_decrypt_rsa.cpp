@@ -45,4 +45,5 @@ int main(int argc ,char*argv[]){
         return(-1);
     }
     fget_decrypt_rsa(std::string(argv[1]),std::string(argv[2]),std::string(argv[3]));
+    return 0;
 }
